@@ -12,7 +12,7 @@ export const HeroCard = ( {
         <div className="card ms-3" style={ {maxWidth:540 } }>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={ `./assets/heroes/${id}.jpg` } 
+                    <img src={ `%PUBLIC_URL%/assets/heroes/${id}.jpg` } 
                          className="card-img" alt={ superhero } 
                     />
                 </div>
